@@ -1,0 +1,4 @@
+10: HOLA AAA AAA AAA
+habria que copiar cosas
+para que el documento tenga datos para poder
+leerlo con todos los campos linea a linea
