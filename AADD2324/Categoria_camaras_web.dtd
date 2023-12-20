@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/Categoria_camaras_web.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE camaras_web SYSTEM "Categoria_camaras_web.dtd">
+
+    <camaras_web>
+    ...
+    </camaras_web>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT camaras_web (camara)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT camara (modelo|marca|altura|anchura|profundidad|peso|megapixeles|comentarios)*>
+<!ATTLIST camara
+    id CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT modelo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT marca (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT altura (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT anchura (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT profundidad (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT peso (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT megapixeles (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT comentarios (#PCDATA)>
